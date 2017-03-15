@@ -1,0 +1,294 @@
+    1  ls #muestra lo que hay en la carpeta
+    2  pwd #muestra lo que hay en la carpeta
+    3  cd Desktop #se mete en la carpeta seleccionada
+    4  cd Desktop/ASIGNATURAS #se mete en la carpeta seleccionada
+    5  cd ASIGNATURAS #se mete en la carpeta seleccionada
+    6  cd GIT #se mete en la carpeta seleccionada
+    7  git config --global user.name "P4ula" #se le asigna un usuario
+    8  git config --global user.email "paulanavarrogomez@gmail.com" #se le asigna un email
+    9  git config --list 
+   10  git clone https://github.com/P4ula/umafactorial.git #clona la carpeta del repositorio en la carpeta actual
+   11  git clone https://github.com/P4ula/umafactorial.git
+   12  git config --global http.proxy http://proxy.lcc.uma.es:3128 #se le asigan el proxy correspondiente a la wifi
+   13  git clone https://github.com/P4ula/umafactorial.git
+   14  git add factorial.java #añade el archivo de java
+   15  git clone https://github.com/P4ula/umafactorial.git
+   16  ls
+   17  git add factorial.java
+   18  git rm dir umafactorial
+   19  git rmdir umafactorial
+   20  git help #sale la ayuda de git
+   21  git rm umafactorial.git
+   22  git rm umafactorial
+   23  ls
+   24  pwd
+   25  ls
+   26  git clone https://github.com/P4ula/umafactorial.git
+   27  git config --global http.proxy http://proxy.lcc.uma.es:3128
+   28  git clone https://github.com/P4ula/umafactorial.git
+   29  cd umafactorial
+   30  git add factorial.java
+   31  touch factorial.java
+   32  git status #da el estado de a maquina
+   33  git config --global http.proxy http://proxy.alu.uma.es:3128 #se le asigan el proxy correspondiente a la wifi
+   34  git clone https://github.com/P4ula/umafactorial.git
+   35  git add factorial.java
+   36  git config --global http.proxy http://proxy.alu.uma.es:3128
+   37  git config --global user.email "paulanavarrogomez@gmail.com"
+   38  git config --global user.name "P4ula"
+   39  git clone https://github.com/P4ula/umafactorial.git
+   40  git add factorial.java
+   41  touch factorial.java
+   42  ls
+   43  cd
+   44  cd Desktop
+   45  cd ASIGNATURAS
+   46  CD GIT
+   47  cd GIT
+   48  cd umafactorial
+   49  git config --global http.proxy http://proxy.alu.uma.es:3128
+   50  git config --global user.name "P4ula"
+   51  git config --global user.email "paulanavarrogomez@gmail.com"
+   52  ls
+   53  cd Desktop
+   54  cd ASUGANTURAS
+   55  cd ASIGNATURAS
+   56  cd GIT
+   57  git clone https://github.com/P4ula/umafactorial.git
+   58  cd umafactorial
+   59  git rm factorial.java
+   60  ls
+   61  cd..
+   62  cd ..
+   63  git clone https://github.com/P4ula/umafactorial.git
+   64  cd umafactorial
+   65  vi factorial.java
+   66  cd Desktop
+   67  cd ASIGNATURAS/GIT
+   68  cd umafactorial
+   69  ls -al
+   70  nano factorial.java
+   71  ls
+   72  git add factorial.java
+   73  git add factorial.java
+   74  git commit -m "refactorizacion" #comenta el fichero con ese mensaje
+   75  git push origin master #guarda la rama master en el repositorio
+   76  git checkout -b reursivo #crea una rama nueva
+   77  git add factorial.java
+   78  git commit -m "implementacion recursiva"
+   79  git push origin recursivo
+   80  git branch
+   81  git branch -d reursivo
+   82  git branch
+   83  git push origin reursivo
+   84  git status
+   85  gitk
+   86  ls
+   87  git checkout master #cambia de rama
+   88  git add factorial.java
+   89  git commit -m "correccion numeros negativos"
+   90  cat factorial.java
+   91  git status
+   92  git checkout recursivo
+   93  git checkout reursivo
+   94  git add factorial.java
+   95  git commit -m "optimizacion"
+   96  git checkout master
+   97  git merge reursivo #coge dos ramas y une todos sus archivos
+   98  git checkout -b refacIO #crea una rama nueva
+   99  git add factorial.java
+  100  git commit -m "refactorizacion de metodo de entrada"
+  101  git add factorial.java
+  102  git stash #guarda archivos temporalmente
+  103  git checkout master
+  104  git add factorial.java
+  105  git commit -m "cambio de long a BigInteger"
+  106  git checkout refacIO
+  107  git stash pop #nos da los archivos que guardamos temporalmente
+  108  git commit -m "refactorizacion de metodo de salida"
+  109  git add factorial.java
+  110  git stash pop
+  111  git commit -m "refactorizacion de metodo de salida"
+  112  git stash pop
+  113  git checkout master
+  114  git merge refactIO
+  115  gitk --all
+  116  git stash pop
+  117  git merge refactIO
+  118  git push origin master
+  119  git checkout refacIO
+  120  git stash pop
+  121  git push origin refacIO
+  122  vi factorial.java
+  123  git stash
+  124  git checkout master
+  125  vi factorial.java
+  126  git checkout refac)=
+  127  git checkout refacIO
+  128  vi factorial.java
+  129  git stash
+  130  git add factorial.java
+  131  git stash
+  132  git push origin refacIO
+  133  git add factorial.java
+  134  git stash
+  135  git checkout master
+  136  git stash pop
+  137  git checkout refacIO
+  138  git stash pop
+  139  git config --global http.proxy https://proxy.alu.uma.es:3128
+  140  git config user.name P4ula
+  141  git config user.name "P4ula"
+  142  git config user.name "P4ula"
+  143  git config --global http.proxy https://proxy.alu.uma.es:3128
+  144  git config user.name "P4ula"
+  145  git clone https://github.com/P4ula/umafactorial.git
+  146  git config --global http.proxy https://proxy.alu.uma.es:3128
+  147  git config user.name "P4ula"
+  148  git config user.name P4ula
+  149  git config --global http.proxy https://proxy.alu.uma.es:3128
+  150  git config user.email paulanavarrogomez@gmail.com
+  151  git config user.name P4ula
+  152  cd Desktop/ASIGNATURA/GIT
+  153  cd Desktop/ASIGNATURAS/GIT
+  154  git clone https://github.com/P4ula/umafactorial.git
+  155  git add factorial.java
+  156  ls
+  157  cd umafactorial
+  158  git add factorial.java
+  159  git commit -m "implementacion inicial"
+  160  git commit -m "refactorizacion"
+  161  git add factorial.java
+  162  git commit -m "refactorizacion"
+  163  git push origin master
+  164  git checkout -b recursivo
+  165  git add factorial.java
+  166  git commit -m "implementacion recursiva"
+  167  git push origin recursivo
+  168  git config user.name P4ula
+  169  git config user.email paulanavarrogomez@gmail.com
+  170  git checkout master
+  171  git add factorial.java
+  172  git commit -m "correccion numeros negativos"
+  173  git push origin master
+  174  git push origin recursivo
+  175  git checkout recursivo
+  176  git add factorial.java
+  177  git commit -m "optimizacion"
+  178  git checkout master
+  179  git merge recursivo
+  180  git merge recursivo
+  181  git checkout -b refacIO
+  182  git add factorial.java
+  183  git commit -m "refactorizacion del metodo de entrada"
+  184  git stash
+  185  git checkout master
+  186  git add factorial.java
+  187  git commit -m "cambio de long a BigInteger"
+  188  git push origin master
+  189  git checkout refacIO
+  190  git stash pop
+  191  git add factorial.java
+  192  git stash pop
+  193  git commit -m "refactorizacion de metodo de salida"
+  194  git stash pop
+  195  ls
+  196  git stash pop
+  197  git config --global http.proxy http://proxy.alu.uma.es:3128
+  198  git config user name P4ula
+  199  git config user.name P4ula
+  200  git config user.email paulanavarrogomez@gmail.com
+  201  git config user.email paulanavarrogomez@gmail.com
+  202  git config user.name P4ula
+  203  git config user.name P4ula
+  204  git config user.email paulanavarrogomez@gmail.com
+  205  git config user.email "paulanavarrogomez@gmail.com"
+  206  git config user.name "P4ula"
+  207  git status
+  208  git config user.email paulanavarrogomez@gmail.com
+  209  git config user.name P4ula
+  210  git config --global http.proxy http://proxy.alu.uma.es:3128
+  211  git config user.name P4ula
+  212  git config user.email paulanavarrogomez@gmail.com
+  213  git config --global http.proxy http://proxy.alu.uma.es:3128
+  214  git clone https://github.com/P4ula/umafactorial.git
+  215  git config user.email paulanavarrogomez@gmail.com
+  216  git config user.name P4ula
+  217  git config user.name "P4ula"
+  218  git config --global http.proxy http://proxy.alu.uma.es:3128
+  219  cd Desktop/ASIGNATURAS/GIT
+  220  git clone https://github.com/P4ula/umafactorial.git
+  221  cd umafactorial
+  222  git clone https://github.com/P4ula/umafactorial.git
+  223  cd Desktop/ASIGNATURAS/GIT
+  224  git config --global http.proxy http://proxy.alu.uma.es:3128
+  225  git clone https://github.com/P4ula/umafactorial.git
+  226  cd umafactorial
+  227  git config user.name P4ulaç
+  228  git config user.name P4ula
+  229  git config user.email paulanavarrogomez@gmail.com
+  230  git add factorial.java
+  231  git commit -m "implementacion inicial"
+  232  git add factorial.java
+  233  git commit -m "refactorizacion"
+  234  git push origin master
+  235  git checkout -b recursivo
+  236  git add factorial.java
+  237  git commit -m "implementacion recursiva"
+  238  git push origin recursivo
+  239  git checkout master
+  240  git add factorial.java
+  241  git commit -m "correccion numeros negativos"
+  242  git push origin master
+  243  git checkout recursivo
+  244  git add factorial.java
+  245  git commit -m "optimizacion"
+  246  git checkout master
+  247  git merge recursivo
+  248  git checkout -b refacIO
+  249  git merge recursivo
+  250  cd Desktop/ASIGNATURAS/GIT
+  251  git config --global http.proxy http://proxy.alu.uma.es:3128
+  252  git clone https://github.com/P4ula/umafactorial.git
+  253  cd umafactorial
+  254  git config user.name P4ula
+  255  git config user.email paulanavarrogomez@gmail.com
+  256  git add factorial.java
+  257  git commit -m "implementacion inicial"
+  258  git add factorial.java
+  259  git commit -m "refactorizacion"
+  260*
+  261  git checkout -b recursivo
+  262  git add factorial.java
+  263  git commit -m "implementacion recursiva"
+  264  git push origin recursivo
+  265  git checkot master
+  266  git checkout master
+  267  git add factorial.java
+  268  git commit -m "correccion numeros negativos"
+  269  git push origin master
+  270  git checkout recursivo
+  271  git add factorial.java
+  272  git commit -m "optimizacion"
+  273  git checkout master
+  274  git merge recursivo
+  275  git checkout -b refacIO
+  276  git add factorial.java
+  277  git commit -m "refactorizacion del metodo de entrada"
+  278  git stash
+  279  git checkout master
+  280  git add factorial.java
+  281  git commit -m "cambio de long a BigInteger"
+  282  git push origin master
+  283  git checkout refacIO
+  284  git stash pop
+  285  git add factorial.java
+  286  git stash pop
+  287  git commit -m "refactorizacion del metodo de salida"
+  288  git checkout master
+  289  git merger refacIO
+  290  git merge refacIO
+  291  git add factorial.java
+  292  git commit -m "mezcla de rama refacIO"
+  293  git push origin master
+  294  history #nos da el historial de todos los comandos usados
